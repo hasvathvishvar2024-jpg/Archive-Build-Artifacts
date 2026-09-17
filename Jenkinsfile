@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -12,7 +11,8 @@ pipeline {
 
         stage('Generate Report') {
             steps {
-                bat 'python app.py'
+                bat 'javac app.java'
+                bat 'java app'
             }
         }
 
