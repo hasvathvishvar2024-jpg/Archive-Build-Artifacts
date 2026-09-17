@@ -6,9 +6,9 @@ public class app {
         try {
             FileWriter file = new FileWriter("report.txt");
 
-            file.write("Application Report\n");
-            file.write("Total Users: 120\n");
-            file.write("Active Sessions: 45\n");
+            file.write("Student Application Report\n");
+            file.write("Total Students: 120\n");
+            file.write("Active Students: 45\n");
 
             file.close();
 
